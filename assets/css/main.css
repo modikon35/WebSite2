@@ -1,6 +1,6 @@
 body {
 	background-image: url("../img/background.png");
-	font-family: 'Foo', sans-serif;
+	font-family: 'Engine', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
 	color: #c3b189;
@@ -13,7 +13,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Foo', sans-serif;
+	font-family: 'Engine', sans-serif;
 	font-weight: 300;
 	color: #333;
 }
@@ -31,7 +31,7 @@ p {
 }
 
 /* Links */
-a {
+.menu a {
 	color: #f85c37;
 	word-wrap: break-word;
 
@@ -146,6 +146,7 @@ hr {
 	letter-spacing: 1px;
 	padding-top: 20px;
 	padding-bottom: 40px;
+	padding-right: 60px;
 	text-align: right;
 }
 
@@ -278,7 +279,7 @@ hr {
 
 #menuToggle {
 	position: absolute;
-	top: 200px;
+	top: 183px;
 	left: 0;
 	z-index: 11;
 	display: block;
@@ -312,12 +313,21 @@ hr {
 	height: 40px;
 }
 
-
+.img-logo {
+	display: inline;
+	height: 200px;
+	padding-left: 60px;
+	text-align: center;
+}
 
 @media screen and (max-width: 767px) {
 
 	.label-logo {
 		text-align: center;
+		padding-right: 0;
+	}
+	.img-logo {
+		padding-left: 0;
 	}
 }
 .row {
@@ -332,6 +342,3 @@ hr {
 	display: none;
 }
 
-.img-logo {
-	height: 200px;
-}
