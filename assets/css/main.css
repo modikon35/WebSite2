@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Paragraph & Typographic */
 p {
+	color: #011068;
         margin: 0 5px 0;
 	line-height: 28px;
 	margin-bottom: 25px;
@@ -340,5 +341,12 @@ hr {
 
 .block-desc {
 	display: none;
+}
+
+.carousel-caption p {
+	color: #ffffff !important;
+	margin: 0 5px 0;
+	line-height: 28px;
+	margin-bottom: 25px;
 }
 
