@@ -1,5 +1,6 @@
 body {
 	background-color: #ffffff;
+	background: url("../img/background.png") repeat-y center;
 	font-family: 'Foo', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
@@ -118,7 +119,7 @@ hr {
 /* Footer Wrap */
 
 #f {
-	background: #ffffff;
+	/*background: #ffffff;*/
 	padding-top: 40px;
 	padding-bottom: 70px;
 	text-align: center;
