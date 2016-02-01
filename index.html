@@ -28,8 +28,8 @@
     <![endif]-->
 
     <script>
-        function facechange (objName) {
-            if ( $(objName).css('display') == 'none' ) {
+        function facechange(objName) {
+            if ($(objName).css('display') == 'none') {
                 $(objName).animate({height: 'show'}, 400);
             } else {
                 $(objName).animate({height: 'hide'}, 200);
@@ -62,23 +62,30 @@
 
 <!-- ========== HEADER SECTION ========== -->
 <section id="home" name="home"></section>
-<div id="headerwrap">
-    <div class="container-fluid">
-    <img class="img-responsive" src="assets/img/logo.jpg"></div><!-- /container -->
-</div>
-<!-- /headerwrap -->
-
 <div class="container-fluid">
     <div class="row">
+        <div class="col-sm-4 centered">
+            <img class="img-logo" src="assets/img/Logo.png">
+        </div>
+        <div class="col-sm-8 label-logo">
+            <p>Контакты<br/>+7 (904) 348-12-02 </p>
 
+            <p>
+                <a href="https://www.facebook.com/groups/173470276343592" target="_blank"><img class="social_img"
+                                                                                               src="assets/img/FB.png"></a>
+                <a href="http://ok.ru/group53010769707124" target="_blank"><img class="social_img"
+                                                                                src="assets/img/Odnoklasniki.png"></a>
+                <a href="http://vk.com/club68996894" target="_blank"><img class="social_img"
+                                                                          src="assets/img/VK.png"></a>
+            </p>
+        </div>
+    </div>
         <div class="col-md-4">
             <section id="about" name="about"></section>
             <div id="f">
                 <h3>HAPPY HOLIDAY</h3>
 
-                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
-                        class="icon icon-circle"></i>
-                </p>
+                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i class="icon icon-circle"></i></p>
 
                 <p>Самые свежие и яркие идеи для Вашего праздника!</p>
 
@@ -137,26 +144,28 @@
         <div class="col-md-4">
             <section id="contact" name="contact"></section>
             <div id="f">
-                <h3>Контакты</h3>
+                <!--<h3>Контакты</h3>
 
                 <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
                         class="icon icon-circle"></i></p>
-                    <p>г. Ростов-на-Дону<br/>+7 (904) 348-12-02 </p>
-                    <p>
-                        <a href="https://www.facebook.com/groups/173470276343592" target="_blank"><img class="social_img" src="assets/img/FB.png"></a>
-                        <a href="http://ok.ru/group53010769707124" target="_blank"><img class="social_img" src="assets/img/Odnoklasniki.png"></a>
-                        <a href="http://vk.com/club68996894" target="_blank"><img class="social_img" src="assets/img/VK.png"></a>
-                    </p>
-            </div>
 
-        </div>
+                <p>г. Ростов-на-Дону<br/>+7 (904) 348-12-02 </p>
 
-    </div>
-
-    <div class="row">
-        <div class="col-md-6 col-lg-offset-3 centered">
+                <p>
+                    <a href="https://www.facebook.com/groups/173470276343592" target="_blank"><img class="social_img"
+                                                                                                   src="assets/img/FB.png"></a>
+                    <a href="http://ok.ru/group53010769707124" target="_blank"><img class="social_img"
+                                                                                    src="assets/img/Odnoklasniki.png"></a>
+                    <a href="http://vk.com/club68996894" target="_blank"><img class="social_img"
+                                                                              src="assets/img/VK.png"></a>
+                </p>
+            </div>-->
             <h3>Наши услуги</h3>
-            <p><a href="#" onclick="facechange('#block1'); return false">1.Пакет "Бюджетный" 1 аниматор -от- 1800 рублей</a></p>
+                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
+                        class="icon icon-circle"></i></p>
+            <p><a href="#" onclick="facechange('#block1'); return false">1.Пакет "Бюджетный" 1 аниматор -от- 1800
+                рублей</a></p>
+
             <div id="block1" class="block-desc">
 
                 <p>Аниматор на 1-1.5 часа
@@ -168,7 +177,9 @@
                     Транспортные расходы</p>
             </div>
 
-            <p><a href="#" onclick="facechange('#block2'); return false">2.Пакет "Классический" 2 аниматора -от- 4000 рублей</a></p>
+            <p><a href="#" onclick="facechange('#block2'); return false">2.Пакет "Классический" 2 аниматора -от- 4000
+                рублей</a></p>
+
             <div id="block2" class="block-desc">
 
                 <p>2 аниматора (на выбор) на 1.5-2 часа (по согласованию)
@@ -182,10 +193,13 @@
                     Фоторепортажная съемка-в Подарок!!! (по согласованию)</p>
             </div>
 
-            <p><a href="#" onclick="facechange('#block3'); return false">3.Пакет "Яркий праздник" 2 аниматора, ростовые куклы Микки и Мини Маус! от 6000 рублей</a></p>
+            <p><a href="#" onclick="facechange('#block3'); return false">3.Пакет "Яркий праздник" 2 аниматора, ростовые
+                куклы Микки и Мини Маус! от 6000 рублей</a></p>
+
             <div id="block3" class="block-desc">
 
-                <p>Поздравление от Микки и Мини Маус воздушными шарами или букетом ромашек из воздушных шаров! (по согласованию)
+                <p>Поздравление от Микки и Мини Маус воздушными шарами или букетом ромашек из воздушных шаров! (по
+                    согласованию)
                     Возможна встреча гостей диснеевскими героями
                     2 аниматора (на выбор) на 1.5-2 часа (по согласованию)
                     Генератор мыльных пузырей (по согласованию)
@@ -199,7 +213,9 @@
                     Видеоклип с праздника - в Подарок!!! (по согласованию)</p>
             </div>
 
-            <p><a href="#" onclick="facechange('#block4'); return false">4.Пакет "Отличный праздник" 3-4 аниматора, от 10 000 рублей</a></p>
+            <p><a href="#" onclick="facechange('#block4'); return false">4.Пакет "Отличный праздник" 3-4 аниматора, от
+                10 000 рублей</a></p>
+
             <div id="block4" class="block-desc">
 
                 <p>3-4 аниматора на праздник! (время согласовываем до 2.5 часов)
@@ -220,6 +236,7 @@
             </div>
 
             <p><a href="#" onclick="facechange('#block5'); return false">Дополнительные услуги:</a></p>
+
             <div id="block5" class="block-desc">
 
                 <p>Сладкий стол "Candy bar" от 4000 рублей
@@ -233,13 +250,110 @@
                     Твистинг (фигуры из шаров) от 350 рублей
                     Шаржист на праздник от 2000 рублей</p>
             </div>
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-6 col-lg-offset-3 centered">
+            <!--<h3>Наши услуги</h3>
+
+            <p><a href="#" onclick="facechange('#block1'); return false">1.Пакет "Бюджетный" 1 аниматор -от- 1800
+                рублей</a></p>
+
+            <div id="block1" class="block-desc">
+
+                <p>Аниматор на 1-1.5 часа
+                    Мыльные пузыри и аквагрим (по согласованию)
+                    Твистинг (моделирование из шариков) (по согласованию)
+                    Реквизит для проведения игр, конкурсов, мастер-классов
+                    Сладкая вата (возможно -в ПОДАРОК! по согласованию)
+                    Музыкальное сопровождение
+                    Транспортные расходы</p>
+            </div>
+
+            <p><a href="#" onclick="facechange('#block2'); return false">2.Пакет "Классический" 2 аниматора -от- 4000
+                рублей</a></p>
+
+            <div id="block2" class="block-desc">
+
+                <p>2 аниматора (на выбор) на 1.5-2 часа (по согласованию)
+                    Генератор мыльных пузырей (по согласованию)
+                    Аквагрим (по согласованию)
+                    Твистинг (моделирование из шариков) (по согласованию)
+                    Реквизит для проведения игр, конкурсов, мастер-классов
+                    Фокусы (по согласованию)
+                    Музыкальное сопровождение
+                    Подарок имениннику! (по согласованию)
+                    Фоторепортажная съемка-в Подарок!!! (по согласованию)</p>
+            </div>
+
+            <p><a href="#" onclick="facechange('#block3'); return false">3.Пакет "Яркий праздник" 2 аниматора, ростовые
+                куклы Микки и Мини Маус! от 6000 рублей</a></p>
+
+            <div id="block3" class="block-desc">
+
+                <p>Поздравление от Микки и Мини Маус воздушными шарами или букетом ромашек из воздушных шаров! (по
+                    согласованию)
+                    Возможна встреча гостей диснеевскими героями
+                    2 аниматора (на выбор) на 1.5-2 часа (по согласованию)
+                    Генератор мыльных пузырей (по согласованию)
+                    Аквагрим (по согласованию)
+                    Твистинг (моделирование из шариков) (по согласованию)
+                    Реквизит для проведения игр, конкурсов, мастер-классов
+                    Фокусы (по согласованию)
+                    Музыкальное сопровождение
+                    Подарок имениннику! (по согласованию)
+                    Фоторепортажная съемка-в Подарок!!! (по согласованию)
+                    Видеоклип с праздника - в Подарок!!! (по согласованию)</p>
+            </div>
+
+            <p><a href="#" onclick="facechange('#block4'); return false">4.Пакет "Отличный праздник" 3-4 аниматора, от
+                10 000 рублей</a></p>
+
+            <div id="block4" class="block-desc">
+
+                <p>3-4 аниматора на праздник! (время согласовываем до 2.5 часов)
+                    Мыльные пузыри
+                    Аквагрим,
+                    Твистинг
+                    Реквизит для проведения игр,конкурсов
+                    Мастер-класс на выбор (по согласованию)
+                    Фокусы
+                    Кукольный театр!!! (от 2-х лет до 10 лет)
+                    Подарок имениннику!
+                    Фоторепортажная съемка -в Подарок!!!
+                    10 распечатанных фото в Подарок!!!
+                    Видеоклип с праздника - в Подарок!!!
+                    Украшение воздушными шарами -в Подарок!!!
+                    Торт для именинника и гостей - в Подарок!!!
+                    Мини-фейерверк из конфетти!!!</p>
+            </div>
+
+            <p><a href="#" onclick="facechange('#block5'); return false">Дополнительные услуги:</a></p>
+
+            <div id="block5" class="block-desc">
+
+                <p>Сладкий стол "Candy bar" от 4000 рублей
+                    Сладкая вата от 1000 рублей
+                    Научное шоу от 4000 рублей
+                    Мыльное шоу от 4000 рублей
+                    Генератор мыльных пузырей от 1000 рублей
+                    Работа видеографа за 1час от 2000 рублей
+                    Работа фотографа от 1000 рублей
+                    Оформление воздушными шарами от 1500 рублей
+                    Твистинг (фигуры из шаров) от 350 рублей
+                    Шаржист на праздник от 2000 рублей</p>
+            </div>-->
 
         </div>
     </div>
 
     <div id="footer">
         <div class="container-fluid">
-            <img class="img-responsive" src="assets/img/footer.jpg"></div><!-- /container -->
+            <img class="img-responsive" src="assets/img/footer.jpg"></div>
+        <!-- /container -->
     </div>
 
 </div>

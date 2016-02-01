@@ -1,6 +1,5 @@
 body {
-	background-color: #ffffff;
-	background: url("../img/background.png") repeat-y center;
+	background-image: url("../img/background.png");
 	font-family: 'Foo', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
@@ -79,9 +78,8 @@ hr {
 	text-align:center;
 	/*
 	min-height: 700px;*/
-	/*background: url(../img/logo.jpg) no-repeat scroll center center;
-	background-size: contain;
-	height: 200px;*/
+	background-image: url(../img/background-header.png);
+	height: 200px;
 
 	-webkit-background-size: 100%;
 	-moz-background-size: 100%;
@@ -109,22 +107,14 @@ hr {
 	font-style: oblique;
 }
 
-#headerwrap .logo {
-	text-align: left;
-	margin-left: 20px;
-	margin-top: 15px;
-}
-
 
 /* Footer Wrap */
 
 #f {
 	/*background: #ffffff;*/
-	padding-top: 40px;
-	padding-bottom: 70px;
+	padding-top: 20px;
+	padding-bottom: 40px;
 	text-align: center;
-	border: solid 1px #faf2cc;
-	height: 100%;
 }
 
 #f h3 {
@@ -147,6 +137,16 @@ hr {
 
 #f img {
 	text-align: center;
+}
+
+.label-logo {
+	font-size: 22px;
+	color: #000000;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	text-align: right;
 }
 
 
@@ -334,6 +334,12 @@ hr {
 	}
 }
 
+@media screen and (max-width: 767px) {
+
+	.label-logo {
+		text-align: center;
+	}
+}
 .row {
 	margin: 0 auto;
 }
@@ -344,4 +350,8 @@ hr {
 
 .block-desc {
 	display: none;
+}
+
+.img-logo {
+	height: 200px;
 }
