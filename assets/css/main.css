@@ -4,8 +4,8 @@ body {
 	font-weight: 300;
 	font-size: 16px;
 	color: #c3b189;
-	padding: 0;
-	margin: 0 auto;
+	/*padding: 0;
+	margin: 0 auto;*/
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
 }
@@ -313,26 +313,6 @@ hr {
 }
 
 
-@media screen and (max-width: 1400px) {
-
-	#menuToggle {
-		top: 150px;
-	}
-}
-
-@media screen and (max-width: 720px) {
-
-	#menuToggle {
-		top: 75px;
-	}
-}
-
-@media screen and (max-width: 480px) {
-
-	#menuToggle {
-		top: 45px;
-	}
-}
 
 @media screen and (max-width: 767px) {
 
