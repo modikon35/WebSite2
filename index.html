@@ -29,11 +29,21 @@
     <script src="assets/js/html5shiv.js"></script>
     <script src="assets/js/respond.min.js"></script>
     <![endif]-->
+
+    <script>
+        function facechange (objName) {
+            if ( $(objName).css('display') == 'none' ) {
+                $(objName).animate({height: 'show'}, 400);
+            } else {
+                $(objName).animate({height: 'hide'}, 200);
+            }
+        }
+    </script>
+
 </head>
 
 <body data-spy="scroll" data-offset="0" data-target="#theMenu">
 
-<!-- Menu -->
 <nav class="menu" id="theMenu">
     <div class="menu-wrap">
         <h1 class="logo"><a href="#home">happy holliday</a></h1>
@@ -56,14 +66,15 @@
 <!-- ========== HEADER SECTION ========== -->
 <section id="home" name="home"></section>
 <div id="headerwrap">
-    <img class="img-responsive img-xs" src="assets/img/logo.jpg"><!-- /container -->
+    <div class="container-fluid">
+    <img class="img-responsive" src="assets/img/logo.jpg"></div><!-- /container -->
 </div>
 <!-- /headerwrap -->
 
 <div class="container-fluid">
     <div class="row">
 
-        <div class="col-lg-4 centered">
+        <div class="col-md-4">
             <section id="about" name="about"></section>
             <div id="f">
                 <h3>HAPPY HOLIDAY</h3>
@@ -84,7 +95,7 @@
             </div>
         </div>
 
-        <div class="col-lg-4 centered">
+        <div class="col-md-4">
             <section id="portfolio" name="portfolio"></section>
             <div id="f">
 
@@ -97,13 +108,13 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img class="img-responsive" src="assets/img/c1.jpg" alt="">
+                            <img class="img-slide" src="assets/img/c1.jpg" alt="">
                         </div>
-                        <div class="item centered">
-                            <img class="img-responsive" src="assets/img/c2.jpg" alt="">
+                        <div class="item">
+                            <img class="img-slide" src="assets/img/c2.jpg" alt="">
                         </div>
-                        <div class="item centered">
-                            <img class="img-responsive" src="assets/img/c3.jpg" alt="">
+                        <div class="item">
+                            <img class="img-slide" src="assets/img/c3.jpg" alt="">
                         </div>
                     </div>
                     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -126,7 +137,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-4 centered">
+        <div class="col-md-4">
             <section id="contact" name="contact"></section>
             <div id="f">
                 <h3>Контакты</h3>
@@ -148,8 +159,92 @@
     <div class="row">
         <div class="col-lg-6 col-lg-offset-3 centered">
             <h3>Наши услуги</h3>
+            <p><a href="#" onclick="facechange('#block1'); return false">1.Пакет "Бюджетный" 1 аниматор -от- 1800 рублей</a></p>
+            <div id="block1" class="block-desc">
+
+                <p>Аниматор на 1-1.5 часа
+                    Мыльные пузыри и аквагрим (по согласованию)
+                    Твистинг (моделирование из шариков) (по согласованию)
+                    Реквизит для проведения игр, конкурсов, мастер-классов
+                    Сладкая вата (возможно -в ПОДАРОК! по согласованию)
+                    Музыкальное сопровождение
+                    Транспортные расходы</p>
+            </div>
+
+            <p><a href="#" onclick="facechange('#block2'); return false">2.Пакет "Классический" 2 аниматора -от- 4000 рублей</a></p>
+            <div id="block2" class="block-desc">
+
+                <p>2 аниматора (на выбор) на 1.5-2 часа (по согласованию)
+                    Генератор мыльных пузырей (по согласованию)
+                    Аквагрим (по согласованию)
+                    Твистинг (моделирование из шариков) (по согласованию)
+                    Реквизит для проведения игр, конкурсов, мастер-классов
+                    Фокусы (по согласованию)
+                    Музыкальное сопровождение
+                    Подарок имениннику! (по согласованию)
+                    Фоторепортажная съемка-в Подарок!!! (по согласованию)</p>
+            </div>
+
+            <p><a href="#" onclick="facechange('#block3'); return false">3.Пакет "Яркий праздник" 2 аниматора, ростовые куклы Микки и Мини Маус! от 6000 рублей</a></p>
+            <div id="block3" class="block-desc">
+
+                <p>Поздравление от Микки и Мини Маус воздушными шарами или букетом ромашек из воздушных шаров! (по согласованию)
+                    Возможна встреча гостей диснеевскими героями
+                    2 аниматора (на выбор) на 1.5-2 часа (по согласованию)
+                    Генератор мыльных пузырей (по согласованию)
+                    Аквагрим (по согласованию)
+                    Твистинг (моделирование из шариков) (по согласованию)
+                    Реквизит для проведения игр, конкурсов, мастер-классов
+                    Фокусы (по согласованию)
+                    Музыкальное сопровождение
+                    Подарок имениннику! (по согласованию)
+                    Фоторепортажная съемка-в Подарок!!! (по согласованию)
+                    Видеоклип с праздника - в Подарок!!! (по согласованию)</p>
+            </div>
+
+            <p><a href="#" onclick="facechange('#block4'); return false">4.Пакет "Отличный праздник" 3-4 аниматора, от 10 000 рублей</a></p>
+            <div id="block4" class="block-desc">
+
+                <p>3-4 аниматора на праздник! (время согласовываем до 2.5 часов)
+                    Мыльные пузыри
+                    Аквагрим,
+                    Твистинг
+                    Реквизит для проведения игр,конкурсов
+                    Мастер-класс на выбор (по согласованию)
+                    Фокусы
+                    Кукольный театр!!! (от 2-х лет до 10 лет)
+                    Подарок имениннику!
+                    Фоторепортажная съемка -в Подарок!!!
+                    10 распечатанных фото в Подарок!!!
+                    Видеоклип с праздника - в Подарок!!!
+                    Украшение воздушными шарами -в Подарок!!!
+                    Торт для именинника и гостей - в Подарок!!!
+                    Мини-фейерверк из конфетти!!!</p>
+            </div>
+
+            <p><a href="#" onclick="facechange('#block5'); return false">Дополнительные услуги:</a></p>
+            <div id="block5" class="block-desc">
+
+                <p>Сладкий стол "Candy bar" от 4000 рублей
+                    Сладкая вата от 1000 рублей
+                    Научное шоу от 4000 рублей
+                    Мыльное шоу от 4000 рублей
+                    Генератор мыльных пузырей от 1000 рублей
+                    Работа видеографа за 1час от 2000 рублей
+                    Работа фотографа от 1000 рублей
+                    Оформление воздушными шарами от 1500 рублей
+                    Твистинг (фигуры из шаров) от 350 рублей
+                    Шаржист на праздник от 2000 рублей</p>
+            </div>
+
         </div>
     </div>
+
+    <div id="footer">
+        <div class="container-fluid">
+            <img class="img-responsive" src="assets/img/footer.jpg"></div><!-- /container -->
+    </div>
+
 </div>
 
 
