@@ -1,6 +1,6 @@
 body {
 	background-color: #ffffff;
-	font-family: sans-serif;
+	font-family: 'Foo', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
 	color: #c3b189;
@@ -13,7 +13,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: sans-serif;
+	font-family: 'Foo', sans-serif;
 	font-weight: 300;
 	color: #333;
 }
@@ -122,6 +122,8 @@ hr {
 	padding-top: 40px;
 	padding-bottom: 70px;
 	text-align: center;
+	border: solid 1px #faf2cc;
+	height: 100%;
 }
 
 #f h3 {

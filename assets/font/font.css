@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Beer money';
-    src: url('beermoney-400-normal.woff2') format('woff2'), url('beermoney-400-normal.woff') format('woff'), url('beermoney-400-normal.ttf') format('truetype');
+    font-family: 'Foo';
+    src: url('foo-400-normal.woff2') format('woff2'), url('foo-400-normal.woff') format('woff'), url('foo-400-normal.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
