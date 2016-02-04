@@ -1,11 +1,11 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <!--<link rel="shortcut icon" href="assets/ico/favicon.png">-->
 
     <title>HAPPY HOLIDAY - идеи счастливого праздника</title>
 
@@ -17,7 +17,8 @@
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/font/font.css" rel="stylesheet">
 
-    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="custom.js"></script>
     <script src="assets/js/modernizr.custom.js"></script>
 
 
@@ -70,7 +71,45 @@
         <div class="col-sm-8 label-logo">
             <p style="padding-top: 30px">+7 (904) 348-12-02 </p>
 
+            <div class="open_modal">
+                <p>Заказать звонок</p>
+            </div>
+
+            <div class="overlay">
+
+            </div>
+            <div class="popup">
+                <div class="close_modal">
+                    x
+                </div>
+                <form class="fofm" action="">
+                    <h5>Мы вам перезвоним!</h5>
+                    <input type="text" required="" placeholder="Имя" name="txtname"><!--
+                    <input type="email" placeholder="Email" name="txtemail">-->
+                    <input type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required=""
+                           placeholder="Телефон" name="txtphone"><!--
+                    <textarea name="txtmessage" placeholder="Описание" rows="10"></textarea>-->
+                    <label><input type="checkbox">Я не робот</label>
+                    <input type="hidden" name="valTrFal" class="valTrFal" value="valTrFal_disabled">
+                    <input type="submit" class="button" value="Отправить" disabled="disabled" name="btnsend">
+                </form>
+            </div>
+
+            <div class="popup2">
+                <div class="close_modal">
+                    x
+                </div>
+                <div class="window">
+                    <div class="insText">
+                        <h5>запрос отправлен</h5>
+
+                        <p><strong>Ваш запрос отправлен.</strong>Мы свяжемся с вами в ближайшее время!</p>
+                    </div>
+                </div>
+            </div>
+
             <p>
+
                 <a href="https://www.facebook.com/groups/173470276343592" target="_blank"><img class="social_img"
                                                                                                src="assets/img/FB.png"></a>
                 <a href="http://ok.ru/group53010769707124" target="_blank"><img class="social_img"
@@ -79,9 +118,7 @@
                                                                           src="assets/img/VK.png"></a>
             </p>
         </div>
-    </div>
-    <!--<hr style="border-width: 2px; border-color: #011068">-->
-    <div class="row">
+
         <div class="col-md-4">
             <section id="about" name="about"></section>
             <div id="f">
@@ -90,15 +127,25 @@
                 <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
                         class="icon icon-circle"></i></p>
 
-                <p>Самые свежие и яркие идеи для Вашего праздника!</p>
+                <p>Организация детских праздников</p>
 
-                <p>Десятки костюмов и образов для детских праздников</p>
+                <p>Аниматоры и ростовые куклы</p>
 
-                <p>Профессиональные аниматоры</p>
+                <p>Праздники в детских садах и школах</p>
 
-                <p>Лучшие сценарии и заряд позитива</p>
+                <p>Выписки из роддома</p>
 
-                <p>Праздники под ключ.</p>
+                <p>Организация и проведение корпоративных мероприятий</p>
+
+                <p>Новогодние праздники</p>
+
+                <p>Свадьбы, юбилеи и другие торжества</p>
+
+                <p>Романтические свидания</p>
+
+                <p>Предложения руки и сердца</p>
+
+                <p>Мальчишники и девичники</p>
             </div>
         </div>
 
@@ -116,60 +163,70 @@
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <img class="img-slide" src="assets/img/c1.jpg" alt="">
+
                             <div class="carousel-caption">
                                 <p>Дед Мороз и Снегурочка</p>
                             </div>
                         </div>
                         <div class="item">
                             <img class="img-slide" src="assets/img/c2.jpg" alt="">
+
                             <div class="carousel-caption">
                                 <p>Фиксики</p>
                             </div>
                         </div>
                         <div class="item">
                             <img class="img-slide" src="assets/img/c3.jpg" alt="">
+
                             <div class="carousel-caption">
                                 <p>Микки и Мини Маус</p>
                             </div>
                         </div>
                         <div class="item">
                             <img class="img-slide" src="assets/img/c4.jpg" alt="">
+
                             <div class="carousel-caption">
                                 <p>Белоснежка</p>
                             </div>
                         </div>
                         <div class="item">
                             <img class="img-slide" src="assets/img/c5.jpg" alt="">
+
                             <div class="carousel-caption">
                                 <p>Пеппа</p>
                             </div>
                         </div>
                         <div class="item">
                             <img class="img-slide" src="assets/img/c6.jpg" alt="">
+
                             <div class="carousel-caption">
                                 <p>Фея Винкс</p>
                             </div>
                         </div>
                         <div class="item">
                             <img class="img-slide" src="assets/img/c7.jpg" alt="">
+
                             <div class="carousel-caption">
                                 <p>Человек-паук</p>
                             </div>
                         </div>
                         <div class="item">
                             <img class="img-slide" src="assets/img/c8.jpg" alt="">
+
                             <div class="carousel-caption">
                                 <p>Черепашка-ниндзя</p>
                             </div>
                         </div>
                         <div class="item">
                             <img class="img-slide" src="assets/img/c9.jpg" alt="">
+
                             <div class="carousel-caption">
                                 <p>Пират</p>
                             </div>
                         </div>
                         <div class="item">
                             <img class="img-slide" src="assets/img/c10.jpg" alt="">
+
                             <div class="carousel-caption">
                                 <p>Angry Birds</p>
                             </div>
@@ -183,37 +240,14 @@
                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                    <br>
-                    <br>
-                    <!--<ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                    </ol>-->
 
                 </div>
             </div>
         </div>
+
         <div class="col-md-4">
             <section id="contact" name="contact"></section>
             <div id="f">
-                <!--<h3>Контакты</h3>
-
-                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
-                        class="icon icon-circle"></i></p>
-
-                <p>г. Ростов-на-Дону<br/>+7 (904) 348-12-02 </p>
-
-                <p>
-                    <a href="https://www.facebook.com/groups/173470276343592" target="_blank"><img class="social_img"
-                                                                                                   src="assets/img/FB.png"></a>
-                    <a href="http://ok.ru/group53010769707124" target="_blank"><img class="social_img"
-                                                                                    src="assets/img/Odnoklasniki.png"></a>
-                    <a href="http://vk.com/club68996894" target="_blank"><img class="social_img"
-                                                                              src="assets/img/VK.png"></a>
-                </p>
-            </div>-->
                 <h3>Наши услуги</h3>
 
                 <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
@@ -313,10 +347,148 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-md-4">
+            <div id="f">
+                <h3>Почему именно мы?</h3>
+
+                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
+                        class="icon icon-circle"></i></p>
+
+                <p>Более 60 популярных персонажей</p>
+
+                <p>Более 3-х лет успешной работы</p>
+
+                <p>Более 500 организованных праздников</p>
+
+                <p>Лучшая цена от 1800 рублей</p>
+
+                <p>Индивидуально разработанный и согласованный с вами сценарий</p>
+
+                <p>Собственная костюмерная</p>
+
+                <p>Талантливые актеры</p>
+
+                <p>Эксперность в деталях</p>
+
+                <p>У нас нет посредников!</p>
+
+                <p>Нет преград в расстоянии!</p>
+            </div>
+        </div>
+        <div class="col-md-4 centered">
+            <div id="f">
+                <h3>Happy Holiday - выписка из роддома</h3>
+
+                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
+                        class="icon icon-circle"></i></p>
+
+                <iframe src="https://player.vimeo.com/video/83559702?title=0&portrait=0" width="500px" height="291px"
+                        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <p>«Прекрасно то, что в наших силах делать своих детей и близких счастливыми. Эмоции - лучший подарок, не забывайте. И любите друг друга».</p>
+                <p style="text-align: right">Вера Крутовская</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div id="f">
+                <h3>Отзывы</h3>
+
+                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
+                        class="icon icon-circle"></i></p>
+
+                <p>(пока пусто, напишем потом)</p>
+            </div>
+        </div>
+    </div>
 
     <div class="row">
-        <div class="col-md-6 col-lg-offset-3 centered">
-            <iframe src="https://player.vimeo.com/video/83559702?title=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class="col-md-4">
+            <div id="f">
+                <h3>У нас вы можете заказать:</h3>
+
+                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
+                        class="icon icon-circle"></i></p>
+
+                <p>Ведущего и dj</p>
+
+                <p>Фокусника</p>
+
+                <p>Цирковое шоу</p>
+
+                <p>Кукольный театр</p>
+
+                <p>Химическое шоу</p>
+
+                <p>Мыльные  шоу</p>
+
+                <p>Яркую шоу-программу</p>
+
+                <p>Художника-шаржиста</p>
+
+                <p>Декор праздника в индивидуальном тематическом стиле</p>
+
+                <p>И много всего интересного!!!</p>
+            </div>
+        </div>
+        <div class="col-md-4 centered">
+            <div id="f">
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div id="f">
+                <h3>блог Веры Крутовской  (руководитель студии)</h3>
+
+                <p class="centered"><i class="icon icon-circle"></i><i class="icon icon-circle"></i><i
+                        class="icon icon-circle"></i></p>
+
+                <p>Детский день рождения - особо - значимое событие в каждой семье. И мы, это осознаем. Именно его, с
+                    воодушевлением отмечает вся семья и с нетерпением ждет именинник. Любые родители желают, чтобы
+                    детский праздник прошел ярко, весело и интересно. В общем - на УРА!
+                    Мы делаем все возможное, чтобы подарить счастье и сказочное настроение своим клиентам, а самое
+                    главное - их чудесным деткам. (Красная строка)Мы обсуждаем все вопросы по организации и проведению
+                    праздника, пишем и согласовываем сценарий, предлагаем идеи.
+                    Мы постоянно совершенствуемся, и радуемся словно дети. Детский смех, улыбки, счастье-это то, ради
+                    чего мы живем. Это то, что вдохновляет нас творить волшебство, дарить новые сказки, двигаться
+                    вперед.
+
+                    И кнопка ведущая на блог (позже кину)
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row centered">
+        <div id="f">
+
+            <p>Мы специализируемся на детских праздниках, организовываем мероприятия «под ключ», постоянно
+                совершенствуемся в своей любимой работе. У нас каждый день - праздник!
+            </p>
+
+            <p>
+                Наша миссия: Мы дарим детям радость, любовь и яркие воспоминания! Мы дарим счастье!
+            </p>
+
+            <p>
+                Смотрите наши фотоотчеты в социальных  сетях<br style="margin-bottom: 10px">
+                <a href="https://www.facebook.com/groups/173470276343592" target="_blank"><img class="social_img"
+                                                                                               src="assets/img/FB.png"></a>
+                <a href="http://ok.ru/group53010769707124" target="_blank"><img class="social_img"
+                                                                                src="assets/img/Odnoklasniki.png"></a>
+                <a href="http://vk.com/club68996894" target="_blank"><img class="social_img"
+                                                                          src="assets/img/VK.png"></a>
+            </p>
+
+            <p>
+                Нашли дешевле? Не спешите принимать решение, позвоните нам, чтобы гарантировать успешность Вашего праздника!
+            </p>
+
+            <p>
+                Запросите у нашего консультанта фото и видеоотчеты с проведенных мероприятий, закажите обратный
+                звонок артиста, проверьте все сами! Ведь так важно, чтобы долгожданный праздник прошел на одном дыхании и оставил лучшие воспоминания!
+            </p>
+
+        </div>
     </div>
 
 </div>
