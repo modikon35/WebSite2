@@ -116,10 +116,6 @@ hr {
 	padding-top: 20px;
 	padding-bottom: 40px;
 	text-align: center;
-	border: solid 1px #faf2cc;
-	border-radius: 10px;
-	background-color: rgba(255, 255, 255, 0.5);
-	margin-bottom: 20px;
 }
 
 /*#f iframe {
@@ -164,7 +160,19 @@ hr {
 	text-align: right;
 }
 
+.cont {
+	border: solid 1px #d9edf7;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
 
+.cont1 {
+	background-color: rgba(129, 255, 0, 0.71);
+}
+
+.cont2 {
+	background-color: rgba(255, 243, 0, 0.71);
+}
 /* MENU CONF*/
 
 .menu {
