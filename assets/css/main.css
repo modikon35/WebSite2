@@ -1,15 +1,21 @@
 body {
-	background-image: url("../img/background.png");
+	/*background-image: url("../img/background.png");*/
+	/*background-color: rgba(255, 203, 0, 0.57);*/
 	font-family: 'Gagalin', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
-	color: #c3b189;
-	/*padding: 0;
-	margin: 0 auto;*/
+	color: #011068;
+	padding-top: 70px;
+	/*margin: 0 auto;*/
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
 }
 
+.container {
+	/*background-color: rgba(255, 255, 255, 0.76);
+	border: solid 1px rgba(100, 239, 247, 0.9);
+	border-radius: 20px;*/
+}
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
@@ -18,6 +24,34 @@ h1, h2, h3, h4, h5, h6 {
 	color: #333;
 }
 
+#about {
+	background-color: rgba(255, 28, 0, 0.57);
+}
+
+#persons {
+	background-color: rgba(235, 255, 0, 0.57);
+	padding-bottom: 40px;
+}
+
+.thumb {
+	padding-bottom: 15px;
+}
+
+#video-blog {
+	background-color: rgba(0, 255, 17, 0.57);
+}
+
+#offers {
+	background-color: rgba(0, 170, 255, 0.57);
+}
+
+#advantages {
+	background-color: rgb(255, 115, 206);
+}
+
+#footer {
+	background-color: rgba(255, 255, 255, 0.57);
+}
 
 /* Paragraph & Typographic */
 p {
@@ -127,10 +161,12 @@ hr {
 
 #f h3 {
 	color: #011068;
+	/*background-color: rgba(0, 244, 255, 0.76);
+	border-radius: 10px 10px 0 0;*/
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 #f i {
@@ -160,10 +196,11 @@ hr {
 	text-align: right;
 }
 
-.cont {
+/*.cont {
 	border: solid 1px #d9edf7;
-	border-radius: 10px;
+	border-radius: 0 0 10px 10px;
 	margin-bottom: 10px;
+	padding-top: 10px;
 }
 
 .cont1 {
@@ -172,7 +209,12 @@ hr {
 
 .cont2 {
 	background-color: rgba(255, 243, 0, 0.71);
-}
+}*/
+
+/*.footer{
+	background-color: rgba(255, 255, 255, 0.71);
+	padding-bottom: -40px;
+}*/
 /* MENU CONF*/
 
 .menu {
@@ -405,14 +447,14 @@ body {
 	/*left: 50%;*/
 }
 .open_modal p {
-	background: #ee7156;
+	/*background: #ee7156;*/
 	border-radius: 5px;
-	padding: 2px 44px;
-	color: #fff;
+	/*padding: 2px 44px;*/
+	color: #777777;
 	font-size: 14px;
 	text-transform: uppercase;
 	cursor: pointer;
-	margin: 0 0 0 -50%;
+	/*margin: 0 0 0 -50%;*/
 	display: block;
 	width: 225px;
 }
