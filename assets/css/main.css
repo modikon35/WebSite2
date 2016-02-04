@@ -116,6 +116,10 @@ hr {
 	padding-top: 20px;
 	padding-bottom: 40px;
 	text-align: center;
+	border: solid 1px #faf2cc;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
+	margin-bottom: 20px;
 }
 
 /*#f iframe {
@@ -142,9 +146,7 @@ hr {
 #f p {
 	font-size: 20px;
 	color: #011068;
-	border: solid 1px #faf2cc;
-	border-radius: 10px;
-	background-color: rgba(255, 255, 255, 0.5);
+
 }
 
 #f img {
