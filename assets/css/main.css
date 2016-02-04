@@ -1,5 +1,5 @@
 body {
-	background-image: url("../img/background.png");
+	background-image: url("../img/background.jpg");
 	font-family: 'Gagalin', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
@@ -118,18 +118,19 @@ hr {
 	text-align: center;
 }
 
-#f iframe {
-	/*background: #ffffff;*/
+/*#f iframe {
+	/!*background: #ffffff;*!/
 	padding-top: 20px;
 	padding-bottom: 40px;
 	text-align: center;
-}
+}*/
 
 #f h3 {
 	color: #011068;
 	font-size: 28px;
 	font-weight: 700;
 	letter-spacing: 1px;
+	padding-bottom: 20px;
 }
 
 #f i {
@@ -141,6 +142,9 @@ hr {
 #f p {
 	font-size: 20px;
 	color: #011068;
+	border: solid 1px #faf2cc;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 #f img {
