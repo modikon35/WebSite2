@@ -12,7 +12,7 @@ body {
 }
 
 .container-main {
-	background-color: rgba(255, 255, 255, 0.76);
+	background-color: rgba(255, 255, 255, 0.86);
 	border-radius: 5px;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.65);
 }
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#offers h3 {
+/*#offers h3 {
 	text-align: center;
 	padding-bottom: 20px;
 	padding-top: 30px;
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 #offers p {
 	padding: 0 15px 0;
 	text-align: inherit;
-}
+}*/
 
 #advantages {
 	/*background-color: rgb(255, 115, 206);*/
@@ -217,17 +217,23 @@ input[type="submit"]:disabled{
 	/*position: relative;
 	left: 50%;*/
 }
-.open_modal p {
-	background: #ee7156;
+.open_modal a {
+	background-color: #ee7156;
 	border-radius: 5px;
 	/*padding: 2px 44px;*/
-	color: #777777;
-	font-size: 14px;
+	color: #ffffff !important;
+	font-size: 16px;
 	/*text-transform: uppercase;*/
 	cursor: pointer;
-	/*margin: 0 0 0 -50%;*/
-	display: block;
+	margin-left: 10px;
+	display: inline-block;
+	text-align: center;
 	width: 225px;
+	text-transform: uppercase;
+}
+
+.open_modal a:hover {
+	background-color: rgba(238, 113, 86, 0.76) !important;
 }
 
 .overlay {
@@ -371,11 +377,16 @@ input[type="submit"]:disabled{
 
 .thumbn {
 	position: relative;
-	transition: all 0.5s ease;
-	margin-bottom: 10px;
+
 }
 
-.thumbn:hover {
+.hoover {
+	transition: all 0.5s ease;
+	margin-bottom: 20px;
+}
+
+
+.hoover:hover {
 	box-shadow: -5px 5px 15px rgba(5, 5, 5, 0.41);
 	transition: all 0.5s ease;
 }
@@ -391,7 +402,8 @@ input[type="submit"]:disabled{
 @media screen and (max-width: 640px){
 	.caption {
 		position: relative;
-		background-color: rgba(5, 168, 98, 0.55);
+		/*background-color: rgba(5, 168, 98, 0.55);*/
+		background-color: rgba(216, 0, 0, 0.71);
 	}
 
 	#about p {
@@ -405,12 +417,33 @@ input[type="submit"]:disabled{
 
 .caption-text {
 	/*background: linear-gradient(to top, rgba(16, 16, 16, 1) ,rgba(16, 16, 16, 0.51) );*/
-	background-color: rgba(255, 111, 0, 0.52);
-	margin-top: -10px;
+	background-color: rgba(216, 0, 0, 0.71);
+	/*border: solid 1px rgba(59, 63, 61, 0.5);*/
+	/*border-top: none;
+	border-radius: 0 0 5px 5px;*/
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .caption-text p {
+	color: #ffffff;
+	text-align: center;
+}
+
+#offers .caption-text p {
+	padding-bottom: 10px;
+}
+
+.caption-text a {
 	color: white;
+	text-decoration: underline;
+}
+
+.caption h3 {
+	margin: 0 auto;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 20px;
 }
 
 /*@media (max-width: 992px) {
