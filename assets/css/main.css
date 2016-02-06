@@ -91,6 +91,10 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: justify;
 }
 
+#video-blog a {
+	padding: 3px 10px;
+}
+
 .pull-left {
 	margin: 5px 10px 0 0;
 }
@@ -128,6 +132,9 @@ p {
 	text-align: center;
 }
 
+a:focus {
+	outline: none;
+}
 
 .label-logo {
 	font-size: 22px;
