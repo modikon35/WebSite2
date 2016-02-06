@@ -119,8 +119,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
 	color: #011068;
         margin: 0 5px 0;
-	line-height: 28px;
-	margin-bottom: 15px;
+	/*line-height: 28px;
+	margin-bottom: 15px;*/
 }
 
 .centered {
@@ -569,6 +569,7 @@ input[type="submit"]:disabled{
 .thumbn {
 	position: relative;
 	transition: all 0.5s ease;
+	margin-bottom: 10px;
 }
 
 .thumbn:hover {
@@ -582,4 +583,15 @@ input[type="submit"]:disabled{
 	bottom: 0;
 	width: 100%;
 	background-color: rgba(16, 16, 16, 0.31)
+}
+
+@media screen and (max-width: 640px){
+	.caption {
+		position: relative;
+		background-color: rgba(5, 168, 98, 0.55);
+	}
+
+	#about p {
+		font-size: 15px;
+	}
 }
