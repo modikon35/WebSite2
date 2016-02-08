@@ -12,8 +12,9 @@ body {
 }
 
 .container-main {
-	/*background-color: rgba(255, 255, 255, 1);
-	background-attachment: scroll;*/
+	background: rgba(255, 255, 255, 1);
+	background: linear-gradient(to top,#5CD3F6 ,#DEF6FD  );
+	padding-top: 30px;
 	/*border-radius: 5px;*/
 	/*box-shadow: 0 20px 20px rgba(0, 0, 0, 0.65);*/
 }
@@ -35,15 +36,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
 	min-height: 400px;
-
-	margin-bottom: 30px;
 }
 
 #home {
 	padding-top: 50px;
-	background: url("../img/brummel.jpg") fixed center 50px no-repeat;
+	background: url("../img/head.jpg") fixed center 50px repeat-x;
 	/*background-color: rgba(238, 113, 86, 1);*/
 }
+
+
 
 /*#about {
 	background-color: rgba(203,232,107, 0.57);
@@ -125,8 +126,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer {
-	padding-top: 30px;
-	background-color: rgba(238, 113, 86, 1);
+	padding-top: 0;
+	background: url("../img/foot.jpg") fixed center bottom repeat-x;
+}
+
+
+#footer p{
+	color: white;
 }
 
 /* Paragraph & Typographic */
@@ -162,10 +168,6 @@ a:focus {
 	padding-bottom: 22px;
 }
 
-/*.footer{
-	background-color: rgba(255, 255, 255, 0.71);
-	padding-bottom: -40px;
-}*/
 
 .social_img {
 	width: 40px;
@@ -416,7 +418,7 @@ input[type="submit"]:disabled{
 	z-index: 1000;
 	bottom: 0;
 	width: 100%;
-	background-color: rgba(16, 16, 16, 0.65)
+	background-color: rgba(16, 16, 16, 0.65);
 }
 
 @media screen and (max-width: 640px){
