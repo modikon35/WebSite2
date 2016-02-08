@@ -13,7 +13,7 @@ body {
 
 .container-main {
 	background: rgba(255, 255, 255, 1);
-	background: linear-gradient(to top,#5CD3F6 ,#DEF6FD  );
+	background: linear-gradient(to top,#DEF6FD ,#5CD3F6  );
 	padding-top: 30px;
 	/*border-radius: 5px;*/
 	/*box-shadow: 0 20px 20px rgba(0, 0, 0, 0.65);*/
@@ -127,7 +127,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer {
 	padding-top: 0;
-	background: url("../img/foot.jpg") fixed center bottom repeat-x;
+	background: url("../img/foot.jpg") fixed center bottom;
+
 }
 
 
