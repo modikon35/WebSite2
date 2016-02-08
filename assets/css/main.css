@@ -1,6 +1,6 @@
 body {
-	background-image: url("../img/background.png");
-	background-attachment: fixed;
+	/*background-image: url("../img/background.png");
+	background-attachment: fixed;*/
 	/*background-color: rgba(255, 240, 203, 0.92);*/
 	font-family: /*'Gagalin',*/ sans-serif;
 	font-weight: 300;
@@ -12,18 +12,18 @@ body {
 }
 
 .container-main {
-	background-color: rgba(255, 255, 255, 0.86);
-	border-radius: 5px;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.65);
+	/*background-color: rgba(255, 255, 255, 1);
+	background-attachment: scroll;*/
+	/*border-radius: 5px;*/
+	/*box-shadow: 0 20px 20px rgba(0, 0, 0, 0.65);*/
 }
 
-/*.cont {
-	/!*background-color: rgba(255, 246, 208, 0.5);*!/
-	/!*background-image: url("../img/pickcha-huikcha.jpg");*!/
-	height: 400px;
-	margin-bottom: 10px;
-	padding-top: 10px;
-}*/
+.copyright p, .copyright a {
+	font-size: 12px;
+	color: white;
+	margin-top: 30px;
+	padding-bottom: 10px;
+}
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
@@ -33,15 +33,25 @@ h1, h2, h3, h4, h5, h6 {
 	color: #333;
 }
 
+.header {
+	min-height: 400px;
+
+	margin-bottom: 30px;
+}
+
 #home {
 	padding-top: 50px;
+	background: url("../img/brummel.jpg") fixed center 50px no-repeat;
+	/*background-color: rgba(238, 113, 86, 1);*/
 }
 
-#about {
-	/*background-color: rgba(255, 28, 0, 0.57);*/
+/*#about {
+	background-color: rgba(203,232,107, 0.57);
+}*/
+
+.container {
+
 }
-
-
 
 #about h3 {
 	font-size: 34px;
@@ -67,7 +77,17 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 30px;
 }
 
+/*#persons {
+	background-color: rgba(242,233,225, 1);
+}*/
 
+/*#video-blog {
+	background-color: rgba(0,0,0, 1);
+}*/
+
+/*#offers {
+	background-color: rgba(203,232,107, 1);
+}*/
 
 .thumb {
 	padding-bottom: 15px;
@@ -99,25 +119,14 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 5px 10px 0 0;
 }
 
-
-/*#offers h3 {
-	text-align: center;
-	padding-bottom: 20px;
-	padding-top: 30px;
-}
-
-#offers p {
-	padding: 0 15px 0;
-	text-align: inherit;
-}*/
-
 #advantages {
 	/*background-color: rgb(255, 115, 206);*/
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 #footer {
-	/*background-color: rgba(255, 255, 255, 0.57);*/
+	padding-top: 30px;
+	background-color: rgba(238, 113, 86, 1);
 }
 
 /* Paragraph & Typographic */
@@ -141,12 +150,17 @@ a:focus {
 	color: #000000;
 	font-weight: 700;
 	letter-spacing: 1px;
-	padding-top: 20px;
-	padding-bottom: 40px;
-	padding-right: 60px;
-	text-align: right;
+
 }
 
+.label-logo p:first-child {
+	margin: 120px 0 0;
+}
+
+.label-logo p {
+	text-align: center;
+	padding-bottom: 22px;
+}
 
 /*.footer{
 	background-color: rgba(255, 255, 255, 0.71);
@@ -159,20 +173,20 @@ a:focus {
 }
 
 .img-logo {
-	display: inline;
-	height: 200px;
-	padding-left: 60px;
-	text-align: center;
+	display: block;
+	margin: 80px 200px;
+
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
 
-	.label-logo {
+	.label-logo p:first-child{
 		text-align: center;
-		padding-right: 0;
+		margin: 0;
 	}
 	.img-logo {
-		padding-left: 0;
+		padding: 0;
+		margin: 0 auto;
 	}
 }
 .row {
@@ -209,7 +223,7 @@ input[type="submit"] {
 	border: 1px solid #d6942d;
 	font-size: 14px;
 	margin-top: 6px;
-	background: #ee7156;
+	background-color: rgba(216, 0, 0, 0.71);
 	text-decoration: none;
 	display: block;
 	cursor: pointer;
@@ -225,7 +239,7 @@ input[type="submit"]:disabled{
 	left: 50%;*/
 }
 .open_modal a {
-	background-color: #ee7156;
+	background-color: rgba(216, 0, 0, 0.71);
 	border-radius: 5px;
 	/*padding: 2px 44px;*/
 	color: #ffffff !important;
@@ -293,7 +307,7 @@ input[type="submit"]:disabled{
 	padding: 0 27px 27px;
 	right: 0;
 	width: auto;
-	background: rgba(255, 255, 255, 0.85);
+	background: rgba(255, 255, 255, 0.95);
 	border-radius: 5px;
 	border: 1px solid #72bffc;
 	border-top: 40px solid #72bffc;
@@ -301,7 +315,7 @@ input[type="submit"]:disabled{
 .popup form input {
 	background: #f0f5f7;
 	margin-top: 8px;
-	width: 227px;
+	width: 245px;
 }
 .popup form input[name="txtname"]{
 	margin-top: 20px;
@@ -321,14 +335,14 @@ input[type="submit"]:disabled{
 	padding: 0;
 }
 .popup form input[type="submit"] {
-	background: #ee7156;
+	background-color: rgba(216, 0, 0, 0.71);
 	text-align: center;
 	text-transform: uppercase;
 	width: 245px;
 }
 .popup form input[type="checkbox"] {
 	width: auto;
-	margin: 2px;
+	margin: 9px;
 	padding: 2px;
 	float: left;
 }
@@ -351,7 +365,7 @@ input[type="submit"]:disabled{
 	cursor: pointer;
 	color: #fff;
 	font-family: 'tahoma', sans-serif;
-	background: #ee7156;
+	background-color: rgba(216, 0, 0, 1);
 	text-align: center;
 }
 .popup2 h5 {
@@ -384,7 +398,6 @@ input[type="submit"]:disabled{
 
 .thumbn {
 	position: relative;
-
 }
 
 .hoover {
